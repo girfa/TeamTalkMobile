@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TeamTalk4 mobile</string>
+    <string name="noname">noname</string>
+    <string name="protocol">4.6</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
+    <string name="messages">Messages</string>
+    <string name="channel">Channel</string>
+    <string name="chat">Chat</string>
+    <string name="video">Video</string>
+    <string name="desktops">Desktops</string>
+    <string name="files">Files</string>
+    <string name="broadcast">BROADCAST</string>
+    <string name="notset">&lt;not set&gt;</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    android:defaultValue="false"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<PreferenceCategory
+        android:key="@string/p_g"
+        android:title="@string/p_g" >
+
+        <EditTextPreference
+            android:key="nickname"
+            android:title="@string/p_g_nick" />
+
+        <ListPreference
+            android:key="gender"
+            android:title="@string/p_g_gender"
+            android:entries="@array/p_g_gender_lang"
+       		android:entryValues="@array/p_g_gender_val"
+       		android:defaultValue="@string/p_g_gender_def" />
+        
+        <EditTextPreference
+            android:key="message"
+            android:title="@string/p_g_message"
+            android:defaultValue="@string/p_g_message_def" />
+        
+        <ListPreference
+            android:key="mode"
+            android:title="@string/p_g_mode"
+            android:entries="@array/p_g_mode_lang"
+       		android:entryValues="@array/p_g_mode_val"
+       		android:defaultValue="@string/p_g_mode_def" />
+        
+        <com.girfa.apps.teamtalk4mobile.utils.MultiSelectListPreference
+            android:key="subscription"
+            android:title="@string/p_g_subs"
+            android:entries="@array/p_g_subs_lang"
+       		android:entryValues="@array/p_g_subs_val"
+       		android:defaultValue="@array/p_g_subs_def" />
+	
+   	</PreferenceCategory>
+        
+	<PreferenceCategory
+        android:key="@string/p_m"
+        android:title="@string/p_m" >
+        
+        <CheckBoxPreference
+            android:key="ptt"
+            android:title="@string/p_m_ptt" />
+        
+        <com.girfa.view.MultiSelectListPreference
+            android:key="activation"
+            android:title="@string/p_m_act"
+            android:entries="@array/p_m_act_lang"
+       		android:entryValues="@array/p_m_act_val"
+       		android:defaultValue="@array/p_m_act_def" />
+        
+    </PreferenceCategory>
+	
+</PreferenceScreen>

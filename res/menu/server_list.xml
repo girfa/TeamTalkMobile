@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/s_sort"
+        android:title="@string/s_sort"
+        android:icon="@drawable/ab_sort"
+        android:showAsAction="ifRoom">
+        <menu>
+            <item 
+            	android:id="@+id/s_alpha"
+        		android:title="@string/s_alpha" />
+            <item 
+            	android:id="@+id/s_most"
+        		android:title="@string/s_most" />
+            <item 
+            	android:id="@+id/s_recent"
+        		android:title="@string/s_recent" />
+        </menu>
+    </item>
+    
+    <item
+        android:id="@+id/s_add"
+        android:title="@string/s_add"
+        android:icon="@drawable/ab_add"
+        android:showAsAction="ifRoom">
+        <menu>
+            <item 
+            	android:id="@+id/s_newc"
+        		android:title="@string/s_newc" />
+            <item 
+            	android:id="@+id/s_open"
+        		android:title="@string/s_open" />
+        </menu>
+    </item>
+    
+    <item
+        android:id="@+id/s_pref"
+        android:title="@string/p_pref"
+        android:icon="@drawable/ab_pref"
+        android:showAsAction="ifRoom" />
+</menu>

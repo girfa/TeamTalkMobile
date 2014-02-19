@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f_upload">Upload</string>
+    <string name="f_download">Download</string>
+    <string name="f_delete">Delete</string>
+    <string name="f_noapp">No application available</string>
+    <string name="f_downto">Downloaded to : [f]</string>
+    <string name="f_u_title">Upload file</string>
+    <string name="s_u_failed">Please install a File Manager</string>
+</resources>

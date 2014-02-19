@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="@string/s_info"
+        android:title="@string/s_info" >
+
+        <com.girfa.apps.teamtalk4mobile.utils.RequiredPreference
+            android:inputType="textCapWords"
+            android:key="name"
+            android:title="@string/s_name" />
+
+        <com.girfa.apps.teamtalk4mobile.utils.RequiredPreference
+            android:inputType="textUri"
+            android:key="address"
+            android:title="@string/s_address" />
+
+        <com.girfa.apps.teamtalk4mobile.utils.RequiredPreference
+            android:defaultValue="@string/s_defport"
+            android:inputType="number"
+            android:key="tcp_port"
+            android:title="@string/s_tcp" />
+
+        <com.girfa.apps.teamtalk4mobile.utils.RequiredPreference
+            android:defaultValue="@string/s_defport"
+            android:inputType="number"
+            android:key="udp_port"
+            android:title="@string/s_udp" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/s_auth"
+        android:title="@string/s_auth" >
+
+        <EditTextPreference
+            android:inputType="textPassword"
+            android:key="password"
+            android:title="@string/s_spass" />
+
+        <EditTextPreference
+            android:key="auth_username"
+            android:title="@string/s_user" />
+
+        <EditTextPreference
+            android:inputType="textPassword"
+            android:key="auth_password"
+            android:title="@string/s_pass" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/s_join"
+        android:title="@string/s_join" >
+
+        <EditTextPreference
+            android:key="join_channel"
+            android:title="@string/s_channel" />
+
+        <EditTextPreference
+            android:inputType="textPassword"
+            android:key="join_password"
+            android:title="@string/s_pass" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

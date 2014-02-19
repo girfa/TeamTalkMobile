@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m_more">More&#8230;</string>
+    <string name="m_record">Record audio</string>
+    <string name="m_rec_start">Record started</string>
+	<string name="m_rec_stop">Record stopped. File saved to [f]</string>
+	<string name="m_connected">Connected</string>
+</resources>

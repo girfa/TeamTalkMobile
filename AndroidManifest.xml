@@ -1,0 +1,72 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.girfa.apps.teamtalk4mobile"
+    android:versionCode="10"
+    android:versionName="4.5.mobile.2" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="19" />
+      
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:uiOptions="splitActionBarWhenNarrow" >
+        <activity
+            android:name=".ServerList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+			    <action android:name="android.intent.action.VIEW" />
+			    <category android:name="android.intent.category.DEFAULT" />
+			    <data android:scheme="file" />
+			    <data android:host="*" />
+			    <data android:pathPattern=".*\\.tt" />
+	            <data android:pathPattern=".*\\..*\\.tt" />
+	            <data android:pathPattern=".*\\..*\\..*\\.tt" />
+	            <data android:pathPattern=".*\\..*\\..*\\..*\\.tt" />
+			  </intent-filter>
+        </activity>
+        <activity
+            android:name=".ServerForm"
+            android:label="@string/s_newc"
+            android:parentActivityName=".ServerList" >
+	        <meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value=".ServerList" />
+        </activity>
+        <activity
+            android:name=".ServerFormOld"
+            android:label="@string/s_newc" 
+            android:parentActivityName=".ServerList" >
+	        <meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value=".ServerList" />
+        </activity>
+        <activity
+            android:name="com.girfa.apps.teamtalk4mobile.MainActivity"
+            android:theme="@style/Theme.VPI"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name=".Preferences"
+            android:label="@string/p_pref" >
+        </activity>
+        <activity
+            android:name=".PreferencesOld"
+            android:label="@string/p_pref" >
+        </activity>
+        <service android:name=".service.Stream" />
+        
+    </application>
+
+</manifest>

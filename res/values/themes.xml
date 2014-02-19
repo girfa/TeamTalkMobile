@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Theme.VPI" parent="Theme.Sherlock.Light">
+       <item name="vpiTabPageIndicatorStyle">@style/TabPage</item>
+    </style>
+
+    <style name="TabPage" parent="Widget.TabPageIndicator">
+        <item name="android:textColor">#FF666666</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

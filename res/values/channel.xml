@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="c_up">Up to parent Channel</string>
+    <string name="c_password">Specify password</string>
+    <string name="c_join">Join Channel</string>
+    <string name="c_me_joined">joined channel [c]</string>
+    <string name="c_me_left">left channel [c]</string>
+    <string name="c_user_joined">[u] joined channel</string>
+    <string name="c_user_left">[u] left channel</string>
+    
+    <string name="c_ct_name">Channel : [c]</string>
+    <string name="c_ct_topic">Topic : [t]</string>
+    <string name="c_ct_quota">Disk quota : [q]</string>
+</resources>

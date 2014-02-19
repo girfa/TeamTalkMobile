@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s_add">Add a Server</string>
+    <string name="s_newc">New configuration</string>
+    <string name="s_open">Open from file</string>
+    
+    <string name="s_sort">Sort Server list</string>
+    <string name="s_alpha">Alphabetical</string>
+    <string name="s_most">Most used</string>
+    <string name="s_recent">Recently added</string>
+    
+    <string name="s_connect">Connect</string>
+    <string name="s_disconnect">Disonnect</string>
+    <string name="s_prompt">Connection will be closed.</string>
+    <string name="s_save">Save to file</string>
+    <string name="s_remove">Remove the Server</string>
+    
+    <string name="s_info">Server Information</string>
+    <string name="s_auth">Authentication (optional)</string>
+    <string name="s_join">Join channel (optional)</string>
+    
+    <string name="s_name">Server name</string>
+    <string name="s_address">Host IP-address</string>
+    <string name="s_tcp">TCP port</string>
+    <string name="s_udp">UDP port</string>
+    <string name="s_defport">10333</string>
+    
+    <string name="s_spass">Server password</string>
+    <string name="s_user">Username</string>
+    <string name="s_pass">Password</string>
+    
+    <string name="s_channel">Channel</string>
+    
+    <string name="s_r_title">Remove</string>
+    <string name="s_r_msg">This Server will be removed.</string>
+    
+    <string name="s_o_title">Open .tt file</string>
+    <string name="s_o_failed">Please install a File Manager</string>
+    <string name="s_o_duplicate">Duplicate Server</string>
+    <string name="s_o_corrupt">File not supported</string>
+    
+    <string name="s_s_done">Saved to : [d]</string>
+    
+    <string name="s_ct_name">Server : [n]</string>
+    <string name="s_ct_motd">MotD : [m]</string>
+</resources>

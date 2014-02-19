@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/girfa/apps/teamtalk4mobile/fragment/ServerFormFragment.java" />
+    </issue>
+</lint>

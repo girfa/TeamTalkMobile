@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/f_upload"
+        android:title="@string/f_upload"
+        android:icon="@drawable/ab_upload"
+        android:showAsAction="ifRoom" />
+</menu>

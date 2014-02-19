@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="p_pref">Preferences</string>
+    
+    <string name="p_g">General</string>
+    <string name="p_g_nick">Nickname</string>
+    <string name="p_g_nick_desc">&lt;username&gt;</string>
+    <string name="p_g_gender">Gender</string>
+    <string name="p_g_gender_def">0</string>
+    <string-array name="p_g_gender_val">
+        <item>0</item>
+        <item>256</item>
+    </string-array>
+    <string-array name="p_g_gender_lang">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="p_g_message">Status Message</string>
+    <string name="p_g_message_def">on Android</string>
+    <string name="p_g_mode">Status mode</string>
+    <string name="p_g_mode_def">0</string>
+    <string-array name="p_g_mode_val">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="p_g_mode_lang">
+        <item>Available</item>
+        <item>Away</item>
+        <item>Question</item>
+    </string-array>
+    <string name="p_g_subs">Default Subscriptions</string>
+    <string name="p_g_subs_none">None</string>
+    <string-array name="p_g_subs_def">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="p_g_subs_val">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+    </string-array>
+    <string-array name="p_g_subs_lang">
+        <item>User Message</item>
+        <item>Channel Message</item>
+        <item>Broadcast Message</item>
+        <item>Audio</item>
+        <item>Video</item>
+        <item>Desktop</item>
+    </string-array>
+    <string name="p_m">Me</string>
+    <string name="p_m_ptt">Push To Talk</string>
+    <string name="p_m_act">Activation</string>
+    <string name="p_m_act_none">None</string>
+    <string-array name="p_m_act_def">
+        <item>1</item>
+    </string-array>
+    <string-array name="p_m_act_val">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="p_m_act_lang">
+        <item>Voice Activation</item>
+        <item>Video Transmission</item>
+        <item>Desktop Sharing</item>
+    </string-array>
+</resources>
